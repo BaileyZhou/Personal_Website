@@ -33,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000;
+    color: #000; /* 改变头部链接字体颜色，如“首页”为字体为黑色 */
     text-decoration: none;
 }
 
