@@ -18,10 +18,18 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // 点击页面其他区域时关闭所有下拉菜单
-    document.addEventListener('click', function() {
+    document.addEventListener('click', function(event) {
         closeAllDropdowns();
     });
-
+    
+    // 阻止点击内容区域时关闭下拉菜单
+    var dropdownContents = document.querySelectorAll('.skill-content');
+    dropdownContents.forEach(function(content) {
+        content.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+    });
+    
     // 关闭所有下拉菜单的函数
     function closeAllDropdowns() {
         var dropdowns = document.querySelectorAll('.skill-content');
