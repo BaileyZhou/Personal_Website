@@ -41,6 +41,7 @@ nav ul li a {
     border-radius: 5px; /* 添加圆角效果 */
 }
 
+/* 实现header上“首页”等的鼠标放置悬停，出现周边图片过渡 */
 nav ul li a:hover {
     color: #ff5733;
     background-color: #fff;
