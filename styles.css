@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     margin: 0; 
     padding: 0;
     background-color: #fff;
@@ -16,6 +16,8 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: relative;
+    border-radius: 10px; /* 添加圆角效果 */
 }
 
 header h1 {
@@ -33,8 +35,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000; /* 改变头部链接字体颜色，如“首页”为字体为黑色 */
+    color: #fff; /* 改变头部链接字体颜色，如“首页”为字体为白色 */
     text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px; /* 添加圆角效果 */
+}
+
+nav ul li a:hover {
+    color: #ff5733;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease; /* 添加过渡效果 */
 }
 
 section {
@@ -54,6 +65,7 @@ section {
 h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    color: #000;
 }
 
 .job, .project {
@@ -74,6 +86,7 @@ ul li {
 form label {
     display: block;
     margin: 10px 0 5px;
+    color: #000;
 }
 
 form input, form textarea {
@@ -102,6 +115,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    border-radius: 0 0 10px 10px; /* 添加圆角效果 */
 }
 
 /* Skill Dropdown Container */
@@ -149,6 +163,7 @@ footer {
 /* Change color of dropdown links on hover */
 .skill-content a:hover {
     background-color: #f1f1f1;
+    color: #ff5733; /* Change text color on hover */
 }
 
 /* 响应式设计 */
