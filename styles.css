@@ -151,4 +151,16 @@ footer {
     background-color: #f1f1f1;
 }
 
+/* 响应式设计 */
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+        padding: 0 10px; 
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
 
