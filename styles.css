@@ -5,7 +5,7 @@ body {
     background-color: #000; /* 设置整体网页背景为黑色 */
     background: url('images/background .png') no-repeat center center fixed; /*设置背景图片*/
     background-size: cover;  /*使背景图片覆盖整个页面*/
-    color: #fff; /* 设置文字颜色为白色 */
+    color: #444; /* 设置文字颜色为白色 */
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
 
 header {
     background-color:  transparent; /* 设置header背景为透明 */
-    color: #fff;
+    color: #000;
     padding: 20px 0;
     text-align: center;
     position: relative;
