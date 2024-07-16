@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif; 
     margin: 0; 
     padding: 0;
-    background: url('/images/background.png') no-repeat center center fixed; /*设置背景图片*/
+    background: url('images/background.png') no-repeat center center fixed; /*设置背景图片*/
     background-size: cover;  /*使背景图片覆盖整个页面*/
     color: #fff; /* 设置文字颜色为白色 */
 }
@@ -200,7 +200,7 @@ footer {
     }
 }
 
-/* Clock style */
+/* Clock style 
 .clock {
     position: absolute;
     top: 10px;
@@ -212,4 +212,4 @@ footer {
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     font-family: 'Roboto', sans-serif;
-}
+}*/
