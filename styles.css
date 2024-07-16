@@ -2,9 +2,8 @@ body {
     font-family: 'Roboto', sans-serif; 
     margin: 0; 
     padding: 0;
-     /* background: url('background.png') no-repeat center center fixed;设置背景图片 */
-    /*background-size: cover;  使背景图片覆盖整个页面 */
-    background-color: #000; /* 设置整体网页背景为黑色 */
+    background: url('background.png') no-repeat center center fixed; /*设置背景图片*/
+    background-size: cover;  /*使背景图片覆盖整个页面*/
     color: #fff; /* 设置文字颜色为白色 */
 }
 
@@ -201,7 +200,7 @@ footer {
     }
 }
 
-/* Clock style 
+/* Clock style */
 .clock {
     position: absolute;
     top: 10px;
@@ -213,43 +212,4 @@ footer {
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     font-family: 'Roboto', sans-serif;
-}*/
-
-/* 动画 */
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.5;
-    }
-}
-
-@keyframes sway {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
-.pixel-art-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('background.png') no-repeat center center fixed; /* 替换为动图路径 */
-    background-size: cover;
-    z-index: -1;
-    animation: blink 2s infinite; /* 星星闪烁动画 */
-}
-
-.pixel-art-person {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: sway 5s infinite; /* 人物轻微活动动画 */
 }
