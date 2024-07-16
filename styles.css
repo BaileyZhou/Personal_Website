@@ -3,7 +3,7 @@ body {
     margin: 0; 
     padding: 0;
     background-color: #000; /* 设置整体网页背景为黑色 */
-    background: url('images/background.png') no-repeat center center fixed; /*设置背景图片*/
+    background: url('images/background.jpg') no-repeat center center fixed; /*设置背景图片*/
     background-size: cover;  /*使背景图片覆盖整个页面*/
     color: #fff; /* 设置文字颜色为白色 */
 }
